@@ -1,0 +1,75 @@
+body {
+  background-image: url("back.png");
+  background-size: cover;
+  font-family: Times, serif;
+  color: black;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+a {
+  color: red;
+}
+ a:hover {
+  color: black;
+ }
+
+h1 {
+  color: black;
+}
+
+#mainphoto {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+#social {
+  color: orange;
+  line-height: 20px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.card {
+  background-color: #D8D8D8;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 70px rgba(0, 0, 0, .2);
+  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.favoritestyled {
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.text-main {
+  font-size: 20px;
+  line-height: 100%;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
